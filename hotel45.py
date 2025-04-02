@@ -33,6 +33,8 @@ class Hotel:
                 print(f"{customer_name} has checked out.")
                 return
         print(f"{customer_name} has not checked in yet or no reservation found.")
+    def show_available_rooms(self):
+        print(f"Available rooms: {self.available_rooms}/{self.total_rooms}")
 
    
 
