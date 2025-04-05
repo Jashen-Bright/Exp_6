@@ -3,7 +3,7 @@ class Hotel:
         self.name = name
         self.total_rooms = total_rooms
         self.available_rooms = total_rooms
-        #self.booked_rooms = []
+        self.booked_rooms = []
 
     def reserve_room(self, customer_name, room_type):
         if self.available_rooms > 0:
