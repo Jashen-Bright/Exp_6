@@ -1,4 +1,5 @@
 class Hotel:
+#constructor
     def __init__(self, name, total_rooms):
         self.name = name
         self.total_rooms = total_rooms
